@@ -11,13 +11,13 @@ A Restful API for print PDF with WeasyPrint.
 Get the latest version (main branch)
 
 ```bash
-docker pull ghcr.io/timfanda35/weasyprint-pdf-api:latest
+docker pull ghcr.io/loipv/weasyprint-pdf-api:latest
 ```
 
 Or use specific version (recommended)
 
 ```bash
-docker pull ghcr.io/timfanda35/weasyprint-pdf-api:1.1.4
+docker pull ghcr.io/loipv/weasyprint-pdf-api:1.1.4
 ```
 
 ### Run Container
@@ -25,13 +25,13 @@ docker pull ghcr.io/timfanda35/weasyprint-pdf-api:1.1.4
 Run with default port `8000`
 
 ```bash
-docker run -it --rm -p 8000:8000 ghcr.io/timfanda35/weasyprint-pdf-api:latest
+docker run -it --rm -p 8000:8000 ghcr.io/loipv/weasyprint-pdf-api:latest
 ```
 
 Run with specific port, like `8080`
 
 ```bash
-docker run -it --rm -p 8080:8080 -e PORT=8080 ghcr.io/timfanda35/weasyprint-pdf-api:latest
+docker run -it --rm -p 8080:8080 -e PORT=8080 ghcr.io/loipv/weasyprint-pdf-api:latest
 ```
 
 ### Access Swagger UI
